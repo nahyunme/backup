@@ -9,7 +9,7 @@ $("#오징어").on("click",function(){
 });
 
 $(".나는버튼").on("click",function(){
-    $("figure").toggleclass("on")
+    $("figure").toggleClass("on")
 });
 
 
