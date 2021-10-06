@@ -3,5 +3,5 @@ div{color: #ff0;}
 .잼민이 {color:#f00;}
 #오징어 {color:#00f;}
 figure{background: #ff0;}
-figure img{margin-left:100px;transition: 2s;}
+figure img{margin-left:100px;transition:2s;}
 figure.on img{margin-left:1000px;}
