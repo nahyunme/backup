@@ -30,9 +30,7 @@ left:0;transform:translateY(-50%);}
 #content p {font-size:0.7rem;font-weight:100;line-height:1.4;margin-bottom:1.5rem}
 #content .container {width:60rem;margin:0 auto;}
 #content .container figure {padding:0 0.75rem;}
-#content i {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:3rem;}
-#content i.xi-arrow-left {margin-left:-32rem;}
-#content i.xi-arrow-right {margin-left:32rem;}
+
 
 #content .slick-dots {display:flex;justify-content:center;}
 #content .slick-dots li {width:1rem;height:0.7rem;margin:1rem 0.5rem;background:#ddd;border-radius:50%;transition:0.4s;}

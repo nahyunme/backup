@@ -25,9 +25,9 @@ body {color:#333;}
 
 #main_visual {position:relative;}
 #main_visual .main_slider figure{height:600px;background:#333;}
-#main_visual .main_slider .itm01 {background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
-#main_visual .main_slider .itm02 {background:url(../lib/base/main_visual02.jpg) no-repeat center center/cover;}
-#main_visual .main_slider .itm03 {background:url(../lib/base/main_visual03.jpg) no-repeat center center/cover;}
+#main_visual .main_slider .item01 {background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
+#main_visual .main_slider .item02 {background:url(../lib/base/main_visual02.jpg) no-repeat center center/cover;}
+#main_visual .main_slider .item03 {background:url(../lib/base/main_visual03.jpg) no-repeat center center/cover;}
 
 #main_visual .slogan {position:absolute;top:50%;left:50%;width:1200px;padding:0 15px;transform:translate(-50%,-50%);color:#fff;text-align:center;}
 
