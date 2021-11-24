@@ -17,4 +17,7 @@ $ (function(){
         $('.main_slider').slick('slickNext');
     });
 
+    
+    //$('#section01 .container').slick//
+    
 })
