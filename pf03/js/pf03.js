@@ -18,7 +18,7 @@ $ (function(){
     });
 
     
-    //$('#section01 .item01').slick//
+    //$('#main_visual.item01').slick//
 
     $('.cn_slider').slick({
         arrows:false,

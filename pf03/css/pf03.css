@@ -1,5 +1,9 @@
 /*{outline:1px solid #f00}*/
 
+/*e71d2a삘
+0774ae파*/ 
+
+
 html {font-size:10px}
 body {font-size:1.6rem}
 
@@ -55,7 +59,7 @@ body {font-size:1.6rem}
 #main_visual .i.xi-arrow-right {padding:auto 1rem;font-size:1.6rem;}
 /*--main_visual end--*/
 
-
+/*--section01 start--*/
 #section01 {position:relative;width:100%;margin:0 auto;}
 #section01 .container {justify-content:space-between;background:url(../img/section.jpg) no-repeat center center/cover;width:100%;height:100vh;}
 #section01 .container h2 {position:absolute;width:100%;justify-content: center;margin-top:8rem;padding:0 2rem 0 0;color:#333;text-align:center;font-size:6rem;font-weight:500;}
@@ -70,16 +74,13 @@ body {font-size:1.6rem}
 #section01 .item01 .ked img {width:20rem;margin:15rem 5rem;}
 #section01 .container a.btn {position:absolute;display:block;width:10%;margin:38% 53%;font-size:2rem;text-align: center;border:0.1rem solid #333;}
 #section01 .container a.btn:hover {background:rgb(0,0,0,0.8);color:#fff;}
-/*
-#section01 .item01 a::after {content:"";display:block;width:50rem;height:2px;background:#666;margin:0.5rem 0;}
-*/
-/*--백그라운드로 이미지 넣으면 이미지 사이즈 조절 어떻게 하는지? / 피자 이미지랑 같이 item01에 넣고싶을 땐?
-#section01 .item01 .simg01 {width:25rem;height:25rem;background:url(../img/블랜딩치즈\ 퐁듀소스.jpg);}
-*/
+/*--section01 end--*/
 
+
+/*--section02 start--*/
 #section02 {padding:10rem;text-align:center;background:url(../img/배경02.png);width:100%;height:100vh;}
-#section02 h2 {font-size:6rem;font-weight:500;margin:3rem auto;color:#fff;}
-#section02 p {font-size:3rem;;font-weight:300;letter-spacing:-0.025em;margin-bottom:6rem;color:#fff;}
+#section02 h2 {font-size:5rem;font-weight:500;margin:3rem auto 1rem auto;color:#fff;}
+#section02 p {font-size:3rem;;font-weight:300;letter-spacing:-0.025em;margin-bottom:5rem;color:#fff;}
 
 #section02 .container {width:120rem;margin:0 auto;}
 #section02 .container .cn_slider {}
@@ -89,12 +90,48 @@ body {font-size:1.6rem}
 #section02 figure img {transition:0.5s;margin-bottom:5rem;padding:0 1rem;border-radius:15%;}
 #section02 figure.on img {transform:scale(1.15);max-width:100%;}
 
-#section02 figure strong {display:block;font-size:2.4rem;font-weight:500;}
-#section02 figure span {font-size:2rem;font-weight:400;}
+#section02 figure strong {display:block;font-size:2rem;font-weight:500;}
+#section02 figure span {font-size:2rem;font-weight:300;}
 #section02 .slide_bar {position:relative;width:90rem;height:0.5rem;background:#ddd;border-radius:0.3rem;margin:2rem auto;}
 #section02 .slide_bar>span {display:block;width:6.92rem;height:0.5rem;border-radius:0.3rem;background:#333;position:absolute;top:0;left:0;transition:0.5s;}
+/*--section02 end--*/
 
 
+
+
+#section03 {padding:10rem;background:#f4f4f4;text-align: center;margin:0 auto;}
+#section03 h2 {width:100%;font-size:4rem;margin:5rem auto;}
+#section03 h2:before {content:"";display:inline-block;width:4rem;height:0.3rem;background:#0774ae;vertical-align:middle;margin:0 2rem;}
+#section03 h2:after {content:"";display:inline-block;width:4rem;height:0.3rem;background:#0774ae;vertical-align:middle;margin:0 2rem;}
+
+#section03 .container {width:120rem;margin:0 auto;}
+#section03 .sc03 {display:flex;flex:1;justify-content:center;}
+#section03 .sc03 figure {padding:0 2rem;}
+#section03 .sc03 figure img {border-radius:1.5rem;width:85%;}
+#section03 .sc03 figure strong {display:block;font-size:2.5rem;margin:1rem;}
+#section03 .sc03 figure a {display:inline-block;margin:2.5rem;width:25%;height:2.5rem;line-height:2.5rem;font-size:2rem;border:0.1rem #000;}
+/*----자세히보기 박스 안 생김*/
+
+#footer {padding:8rem;margin:0 auto;height:30rem;width:100%;background:#0012;}
+#footer .container {position: relative;width:120rem;margin:0 auto;display:flex;flex:1;flex:1;line-height:100px;}
+#footer .container img {width:9rem;margin:0 auto;padding:0 0 0 0;}
+#footer .container strong {display:block;margin-left:76%;font-size:3rem;}
+#footer .container i {border-radius:50%;margin:0 1rem;font-size:3.4rem;}
+
+#footer ul {justify-content:left;width:120rem;margin:0rem auto;}
+
+#footer .tline {display:flex;margin:2rem auto;font-size:1.8rem;}
+#footer .tline li {position:relative;}
+#footer .tline li a {display:block;padding:0 20px;}
+#footer .tline li~li:before {content:"I";position:absolute;top:0;left:0;}
+#footer .tline li:first-child a {padding:0 20px 0 0;}
+
+#footer .stline {display:flex;margin:0rem auto;font-size:1.5rem;}
+#footer .stline li {position:relative;}
+#footer .stline li a {display:block;padding:0 20px;}
+#footer .stline li~li:before {content:"I";position:absolute;top:0;left:0;}
+#footer .stline li:first-child a {padding:0 20px 0 0;}
+/*----푸터 제일 밑에 공간없음*/
 
 
 
