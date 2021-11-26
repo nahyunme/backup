@@ -18,7 +18,11 @@ $ (function(){
     });
 
     
-    //$('#main_visual.item01').slick//
+    //$('.container_slider').slick({
+        autoplay:true
+    
+    //
+
 
     $('.cn_slider').slick({
         arrows:false,
