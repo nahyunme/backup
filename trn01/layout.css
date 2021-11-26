@@ -54,13 +54,13 @@ efac4e
 .visual .slogan {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;text-align:center;width:60rem;z-index:999;}
 
 .visual .slogan strong {display:block;font-size:1rem;margin-bottom:1rem;}
-.visual .slogan h2 {font-size:4rem;margin-bottom:1rem;font-family: 'Lato', sans-serif, 'Noto Sans KR';}
+.visual .slogan h2 {font-size:4rem;margin-bottom:1rem;font-family: 'Lato', sans-serif;}
 .visual .slogan p {font-weight:300;line-height:1.618;}
 
 @media screen and (max-width:768px) {
     .visual .slogan {position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;text-align:center;width:100%;padding:0 0.75rem;z-index:999;}
     .visual .slogan strong {display:block;font-size:4vw;margin-bottom:1rem;}
-    .visual .slogan h2 {font-size:9.6618vw;margin-bottom:1rem;font-family: 'Kaushan Script', 'Noto Sans KR';}
+    .visual .slogan h2 {font-size:9.6618vw;margin-bottom:1rem;font-family: 'Lato', sans-serif;}
     .visual .slogan p {font-size:3vw;font-weight:300;line-height:1.618;}
 }
 
