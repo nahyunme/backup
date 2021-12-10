@@ -1,0 +1,71 @@
+*{outline:1px solid #f00;}
+
+#wrap {}
+.container {width:1200px;margin:0 auto;}
+.container::after {content:"";display:block;clear: both;}
+/*컨테이너 박스 전체에 after효과*/
+.container>* {padding:0 15px;}
+
+
+.header {position:sticky;top:0;left:0;line-height:100px;z-index:999;background:#fff;}
+/*js에서 header.on으로 해야 할 것을 sticky로 끝냄*/
+.header h1 {float: left;width:20%;}
+.header h1 img {width:180px;}
+.header nav {float: left;width:calc(75% - 30px);}
+.header .top_banner {float: right;}
+/*양 끝 간격 안 맞아서 각각 와이드 주고 준 만큼 나눠가짐*/
+
+.header ul {text-align:center;}
+.header ul>li {display:inline-block;}
+.header ul>li>a {display:block;padding:0 25px;}
+
+
+
+.main_slider {}
+.main_slider figure {height:calc(100vh - 100px);}
+.main_slider .itm01 {background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
+.main_slider .itm02 {background:url(../lib/base/main_visual02.jpg) no-repeat center center/cover;}
+.main_slider .itm03 {background:url(../lib/base/main_visual03.jpg) no-repeat center center/cover;}
+
+
+.content {padding:100px 0;}
+.content figure {float:left;width:33.33333333%;}
+/*.content i {position:sticky;bottom:300px;left:0;font-size:50px;padding:50px 0 100vh .;;}
+*/
+/*
+/*width: 2개면 50, 4개면 25*/
+
+
+.footer {top:0;left:0;padding:50px 0 100vh 0;background:#333;color:#fff;text-align:center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
