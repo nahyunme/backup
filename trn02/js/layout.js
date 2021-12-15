@@ -12,6 +12,7 @@ $(function(){
             destination.index===0 ? $('.wheel').fadeIn() : $('.wheel').fadeOut();
         },
     });
+
     
     $('.b_slider').slick({
         arrows:false,
@@ -48,7 +49,7 @@ $(function(){
         $.fn.fullpage.setAllowScrolling(true);
         $('.header>a').removeClass('on');
     });
-        
+
 
 
 
