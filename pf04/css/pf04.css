@@ -61,7 +61,7 @@ body {font-size:1.6rem}
     
 }
 
-.main_visual {position:relative;height:100vh;background:url(/img/main_visual.jpg);}
+.main_visual {position:relative;height:100vh;background:url(../img/main_visual.jpg);}
 .main_visual .container {position:absolute;top:20%;left:50%;transform:translate(-50%,-50%);width:1200px;
     padding:0%;color:#fff;text-align:center;}
 .main_visual h2 {font-size: 3rem;letter-spacing:0.025em;margin-bottom:15px;}
