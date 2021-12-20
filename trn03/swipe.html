@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스와이프 슬라이드 01</title>
+    <link rel="stylesheet" href="../lib/css/common.css">
+    <link rel="stylesheet" href="../lib/css/swiper-bundle.min.css">
+    <script src="../lib/js/swiper-bundle.min.js"></script>
+    <style>
+        .main_slider {height:600px;background:#f4f4f4;}
+        .main_slider .swiper-slide {height:600px;padding:180px 0;text-align:center;box-sizing:border-box;color:#222}
+        /*
+        .main_slider .swiper-slide.swiper-slide-active {color:#fff;transition:0.5s 0.5s;}
+        */
+        .main_slider .swiper-slide h2 {font-size:40px;font-weight:700;margin-bottom:20px;transform:translateY(100px);opacity:0;}
+        .main_slider .swiper-slide p {font-size:15px;font-weight:300;margin-bottom:20px;transform:translateY(100px);opacity:0;}
+
+        .main_slider .swiper-slide.swiper-slide-active h2 {transform:translateY(0);opacity:1;transition:0.5s;}
+        .main_slider .swiper-slide.swiper-slide-active p {transform:translateY(0);opacity:1;transition:0.5s 0.3s;}
+        .main_slider .itm01 {background:url(../lib/base/main_visual01.jpg) no-repeat center center/cover;}
+        .main_slider .itm02 {background:url(../lib/base/main_visual02.jpg) no-repeat center center/cover;}
+        .main_slider .itm03 {background:url(../lib/base/main_visual03.jpg) no-repeat center center/cover;}
+        .sl01 {width:1200px;height:500px;margin:200px pxauto;background:#ddd;}
+        /*
+        .sl01>.swiper-wrapper>.swiper-slide:nth-child(1) {background:#f00;}
+        */
+        .sl02 {width:1200px;height:500px;margin:200px auto;background:#f00;}
+        .sl02>.swiper-wrapper>.swiper-slide {background:#ff0;}
+    </style> 
+
+</head>
+<body>
+    
+    <section id="visual">
+        <div class="swiper main_slider">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide itm01 ">
+                  <div class="txt">
+                      <h2>Lorem ipsum dolor sit.
+                      </h2>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          Iste sit vitae nulla consequatur inventore culpa ducimus fugit, 
+                          <br>nostrum maxime quos eius nesciunt quo minus, sint veniam ullam voluptates, deserunt accusamus?</p>
+                  </div>
+              </div>
+              <div class="swiper-slide itm02 ">
+                <div class="txt">
+                    <h2>Lorem ipsum dolor sit.
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste sit vitae nulla consequatur inventore culpa ducimus fugit, 
+                        <br>nostrum maxime quos eius nesciunt quo minus, sint veniam ullam voluptates, deserunt accusamus?</p>
+                </div>
+              </div>
+              <div class="swiper-slide itm03 ">
+                <div class="txt">
+                    <h2>Lorem ipsum dolor sit.
+                    </h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Iste sit vitae nulla consequatur inventore culpa ducimus fugit, 
+                        <br>nostrum maxime quos eius nesciunt quo minus, sint veniam ullam voluptates, deserunt accusamus?</p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Slider main container -->
+<div class="swiper sl01">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide itm01">Slide 1</div>
+      <div class="swiper-slide itm02">Slide 2</div>
+      <div class="swiper-slide itm03">Slide 3</div>
+    </div>
+</div>
+<div class="swiper sl02">
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+    </div>
+</div>
+
+
+
+<script>
+ //$('.swiper').slick();
+    const swiper = new Swiper('.sl01', {
+        loop: true,
+        autoplay: {
+          delay: 500
+        },
+    });
+    const swiper2 = new Swiper('.sl02', {
+        loop: true,
+        slidesPerView:3,
+        spaceBetween:30
+    });
+    const main_slider = new Swiper('.main_slider', {
+        loop: true,
+        //slidesPerView:3,
+        spaceBetween:30
+    });
+  // Optional parameters
+  //direction: 'vertical',
+  //일단 잠시 지움...
+//   loop: true,
+
+//   // If we need pagination
+//   pagination: {
+//     el: '.swiper-pagination',
+//   },
+
+//   // Navigation arrows
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+
+//   // And if we need scrollbar
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+
+</script>
+
+
+  
+
+</body>
+</html>
